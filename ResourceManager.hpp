@@ -26,5 +26,9 @@ public:
         }
         return *this;
     }
+    double get() const
+    {
+        return resource_->get();
+    }
 
 };
